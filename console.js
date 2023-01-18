@@ -7,3 +7,6 @@ console.log("hello world")
 
 let x = prompt("Enter your age");
 console,log("x");
+
+//for api - use fetch('url').then().then
+
