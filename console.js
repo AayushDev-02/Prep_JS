@@ -9,4 +9,8 @@ let x = prompt("Enter your age");
 console,log("x");
 
 //for api - use fetch('url').then().then
-
+fetch('url')
+.then(respons => response.json())
+.then(response => {
+  console.log(response)
+})
